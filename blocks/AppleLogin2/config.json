@@ -1,0 +1,65 @@
+{
+  "id": "AppleLogin2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AppleLogin2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AppleLogin2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AppleLogin2": {
+        "file": "AppleLogin2.tsx",
+        "extends": "AppleLogin2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "AppleLogin2Controller",
+            "path": "./AppleLogin2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AppleLogin2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AppleLogin2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AppleLogin2": {
+        "file": "AppleLogin2.web.tsx",
+        "extends": "AppleLogin2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "AppleLogin2Controller",
+            "path": "./AppleLogin2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AppleLogin2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+47588dd7a7e3ae8a247fdc8406acfa73
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getOS = void 0;
+/* App/Lib/GeneralHelpers.js */
+const react_native_1 = require("react-native");
+function getOS() {
+  return react_native_1.Platform.OS;
+}
+exports.getOS = getOS;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJyZWFjdF9uYXRpdmVfMSIsInJlcXVpcmUiLCJnZXRPUyIsIlBsYXRmb3JtIiwiT1MiLCJleHBvcnRzIl0sInNvdXJjZXMiOlsiL1VzZXJzL21hY20xNC9Eb2N1bWVudHMvTlhaV0FXL254endhdi0yOTQ3OTMtcmVhY3QtbmF0aXZlL3NyYy9wYWNrYWdlcy9mcmFtZXdvcmsvc3JjL0hlbHBlcnMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiLyogQXBwL0xpYi9HZW5lcmFsSGVscGVycy5qcyAqL1xuaW1wb3J0IHsgUGxhdGZvcm0gfSBmcm9tICdyZWFjdC1uYXRpdmUnO1xuXG5leHBvcnQgZnVuY3Rpb24gZ2V0T1MoKTogc3RyaW5nIHtcbiAgcmV0dXJuIFBsYXRmb3JtLk9TO1xufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTtBQUNBLE1BQUFBLGNBQUEsR0FBQUMsT0FBQTtBQUVBLFNBQWdCQyxLQUFLQSxDQUFBO0VBQ25CLE9BQU9GLGNBQUEsQ0FBQUcsUUFBUSxDQUFDQyxFQUFFO0FBQ3BCO0FBRkFDLE9BQUEsQ0FBQUgsS0FBQSxHQUFBQSxLQUFBIn0=

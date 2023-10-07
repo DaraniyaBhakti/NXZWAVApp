@@ -1,0 +1,1 @@
+{"version":3,"names":["_colors","_interopRequireDefault","require","_default","colors","exports","default"],"sources":["theme.js"],"sourcesContent":["import colors from './colors';\n\nexport default {\n  colors,\n};\n"],"mappings":";;;;;AAAA,IAAAA,OAAA,GAAAC,sBAAA,CAAAC,OAAA;AAA8B,IAAAC,QAAA,GAEf;EACbC,MAAM,EAANA;AACF,CAAC;AAAAC,OAAA,CAAAC,OAAA,GAAAH,QAAA"}

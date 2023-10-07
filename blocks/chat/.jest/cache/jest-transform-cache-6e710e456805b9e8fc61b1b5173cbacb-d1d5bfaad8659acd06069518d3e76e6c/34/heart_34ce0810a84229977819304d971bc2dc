@@ -1,0 +1,5 @@
+479c7f2710e86c79b72d6872ce137b53
+module.exports = {
+      testUri: 
+        "../../react-native-ratings/src/images/heart.png"
+    };

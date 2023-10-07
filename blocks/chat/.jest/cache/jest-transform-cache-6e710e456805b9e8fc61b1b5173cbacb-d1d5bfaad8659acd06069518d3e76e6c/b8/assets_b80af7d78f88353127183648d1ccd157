@@ -1,0 +1,242 @@
+8508b5c6951844c928b89999f03a70a2
+"use strict";
+
+/* istanbul ignore next */
+function cov_5hvcbecj7() {
+  var path = "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/src/assets.tsx";
+  var hash = "0df8920d7e2bbbc4795b29ec790f25686fab3654";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/src/assets.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 290
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 60
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 51
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 6,
+          column: 69
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 0
+        },
+        end: {
+          line: 7,
+          column: 61
+        }
+      },
+      "6": {
+        start: {
+          line: 8,
+          column: 0
+        },
+        end: {
+          line: 8,
+          column: 58
+        }
+      },
+      "7": {
+        start: {
+          line: 9,
+          column: 0
+        },
+        end: {
+          line: 9,
+          column: 80
+        }
+      },
+      "8": {
+        start: {
+          line: 10,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 80
+        }
+      },
+      "9": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 55
+        }
+      },
+      "10": {
+        start: {
+          line: 12,
+          column: 0
+        },
+        end: {
+          line: 12,
+          column: 57
+        }
+      },
+      "11": {
+        start: {
+          line: 13,
+          column: 0
+        },
+        end: {
+          line: 13,
+          column: 48
+        }
+      },
+      "12": {
+        start: {
+          line: 14,
+          column: 0
+        },
+        end: {
+          line: 14,
+          column: 58
+        }
+      },
+      "13": {
+        start: {
+          line: 15,
+          column: 0
+        },
+        end: {
+          line: 15,
+          column: 59
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      file: "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/src/assets.tsx",
+      sources: ["/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/src/assets.tsx"],
+      names: [],
+      mappings: ";;;AAAa,QAAA,WAAW,GAAG,OAAO,CAAC,4BAA4B,CAAC,CAAC;AACpD,QAAA,WAAW,GAAG,OAAO,CAAC,mBAAmB,CAAC,CAAC;AAE3C,QAAA,YAAY,GAAG,OAAO,CAAC,oCAAoC,CAAC,CAAC;AAC7D,QAAA,SAAS,GAAG,OAAO,CAAC,+BAA+B,CAAC,CAAC;AACrD,QAAA,UAAU,GAAG,OAAO,CAAC,2BAA2B,CAAC,CAAC;AAClD,QAAA,qBAAqB,GAAG,OAAO,CAAC,sCAAsC,CAAC,CAAC;AACxE,QAAA,sBAAsB,GAAG,OAAO,CAAC,qCAAqC,CAAC,CAAC;AACxE,QAAA,SAAS,GAAG,OAAO,CAAC,yBAAyB,CAAC,CAAC;AAC/C,QAAA,UAAU,GAAG,OAAO,CAAC,0BAA0B,CAAC,CAAC;AACjD,QAAA,OAAO,GAAG,OAAO,CAAC,oBAAoB,CAAC,CAAC;AACxC,QAAA,iBAAiB,GAAG,OAAO,CAAC,oBAAoB,CAAC,CAAC;AAClD,QAAA,YAAY,GAAG,OAAO,CAAC,0BAA0B,CAAC,CAAC",
+      sourcesContent: ["export const insertPhoto = require(\"../assets/insert_photo.png\");\nexport const imgPlusIcon = require(\"../assets/add.png\");\n\nexport const imgArrowBack = require(\"../assets/ic_arrow_right_round.png\");\nexport const imgSearch = require(\"../assets/ic_search_black.png\");\nexport const imgNewChat = require(\"../assets/ic_new_chat.png\");\nexport const imgDefaultRadioButton = require(\"../assets/ic_radiobutton_default.png\");\nexport const imgSelectedRadioButton = require(\"../assets/ic_radiobutton_select.png\");\nexport const imgDelete = require(\"../assets/ic_delete.png\");\nexport const imgMessage = require(\"../assets/ic_message.png\");\nexport const imgLock = require(\"../assets/lock.png\");\nexport const imgRedMessageEdit = require(\"../assets/edit.png\");\nexport const imgRedDollar = require(\"../assets/red-dollar.png\");\n"]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "0df8920d7e2bbbc4795b29ec790f25686fab3654"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_5hvcbecj7 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_5hvcbecj7();
+cov_5hvcbecj7().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_5hvcbecj7().s[1]++;
+exports.imgRedDollar = exports.imgRedMessageEdit = exports.imgLock = exports.imgMessage = exports.imgDelete = exports.imgSelectedRadioButton = exports.imgDefaultRadioButton = exports.imgNewChat = exports.imgSearch = exports.imgArrowBack = exports.imgPlusIcon = exports.insertPhoto = void 0;
+/* istanbul ignore next */
+cov_5hvcbecj7().s[2]++;
+exports.insertPhoto = require("../assets/insert_photo.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[3]++;
+exports.imgPlusIcon = require("../assets/add.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[4]++;
+exports.imgArrowBack = require("../assets/ic_arrow_right_round.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[5]++;
+exports.imgSearch = require("../assets/ic_search_black.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[6]++;
+exports.imgNewChat = require("../assets/ic_new_chat.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[7]++;
+exports.imgDefaultRadioButton = require("../assets/ic_radiobutton_default.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[8]++;
+exports.imgSelectedRadioButton = require("../assets/ic_radiobutton_select.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[9]++;
+exports.imgDelete = require("../assets/ic_delete.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[10]++;
+exports.imgMessage = require("../assets/ic_message.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[11]++;
+exports.imgLock = require("../assets/lock.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[12]++;
+exports.imgRedMessageEdit = require("../assets/edit.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[13]++;
+exports.imgRedDollar = require("../assets/red-dollar.png");
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJleHBvcnRzIiwiaW5zZXJ0UGhvdG8iLCJyZXF1aXJlIiwiY292XzVodmNiZWNqNyIsInMiLCJpbWdQbHVzSWNvbiIsImltZ0Fycm93QmFjayIsImltZ1NlYXJjaCIsImltZ05ld0NoYXQiLCJpbWdEZWZhdWx0UmFkaW9CdXR0b24iLCJpbWdTZWxlY3RlZFJhZGlvQnV0dG9uIiwiaW1nRGVsZXRlIiwiaW1nTWVzc2FnZSIsImltZ0xvY2siLCJpbWdSZWRNZXNzYWdlRWRpdCIsImltZ1JlZERvbGxhciJdLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNtMTQvRG9jdW1lbnRzL05YWldBVy9ueHp3YXYtMjk0NzkzLXJlYWN0LW5hdGl2ZS9zcmMvcGFja2FnZXMvYmxvY2tzL2NoYXQvc3JjL2Fzc2V0cy50c3giXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGluc2VydFBob3RvID0gcmVxdWlyZShcIi4uL2Fzc2V0cy9pbnNlcnRfcGhvdG8ucG5nXCIpO1xuZXhwb3J0IGNvbnN0IGltZ1BsdXNJY29uID0gcmVxdWlyZShcIi4uL2Fzc2V0cy9hZGQucG5nXCIpO1xuXG5leHBvcnQgY29uc3QgaW1nQXJyb3dCYWNrID0gcmVxdWlyZShcIi4uL2Fzc2V0cy9pY19hcnJvd19yaWdodF9yb3VuZC5wbmdcIik7XG5leHBvcnQgY29uc3QgaW1nU2VhcmNoID0gcmVxdWlyZShcIi4uL2Fzc2V0cy9pY19zZWFyY2hfYmxhY2sucG5nXCIpO1xuZXhwb3J0IGNvbnN0IGltZ05ld0NoYXQgPSByZXF1aXJlKFwiLi4vYXNzZXRzL2ljX25ld19jaGF0LnBuZ1wiKTtcbmV4cG9ydCBjb25zdCBpbWdEZWZhdWx0UmFkaW9CdXR0b24gPSByZXF1aXJlKFwiLi4vYXNzZXRzL2ljX3JhZGlvYnV0dG9uX2RlZmF1bHQucG5nXCIpO1xuZXhwb3J0IGNvbnN0IGltZ1NlbGVjdGVkUmFkaW9CdXR0b24gPSByZXF1aXJlKFwiLi4vYXNzZXRzL2ljX3JhZGlvYnV0dG9uX3NlbGVjdC5wbmdcIik7XG5leHBvcnQgY29uc3QgaW1nRGVsZXRlID0gcmVxdWlyZShcIi4uL2Fzc2V0cy9pY19kZWxldGUucG5nXCIpO1xuZXhwb3J0IGNvbnN0IGltZ01lc3NhZ2UgPSByZXF1aXJlKFwiLi4vYXNzZXRzL2ljX21lc3NhZ2UucG5nXCIpO1xuZXhwb3J0IGNvbnN0IGltZ0xvY2sgPSByZXF1aXJlKFwiLi4vYXNzZXRzL2xvY2sucG5nXCIpO1xuZXhwb3J0IGNvbnN0IGltZ1JlZE1lc3NhZ2VFZGl0ID0gcmVxdWlyZShcIi4uL2Fzc2V0cy9lZGl0LnBuZ1wiKTtcbmV4cG9ydCBjb25zdCBpbWdSZWREb2xsYXIgPSByZXF1aXJlKFwiLi4vYXNzZXRzL3JlZC1kb2xsYXIucG5nXCIpO1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFhQSxPQUFBLENBQUFDLFdBQVcsR0FBR0MsT0FBTyxDQUFDLDRCQUE0QixDQUFDO0FBQUM7QUFBQUMsYUFBQSxHQUFBQyxDQUFBO0FBQ3BESixPQUFBLENBQUFLLFdBQVcsR0FBR0gsT0FBTyxDQUFDLG1CQUFtQixDQUFDO0FBQUM7QUFBQUMsYUFBQSxHQUFBQyxDQUFBO0FBRTNDSixPQUFBLENBQUFNLFlBQVksR0FBR0osT0FBTyxDQUFDLG9DQUFvQyxDQUFDO0FBQUM7QUFBQUMsYUFBQSxHQUFBQyxDQUFBO0FBQzdESixPQUFBLENBQUFPLFNBQVMsR0FBR0wsT0FBTyxDQUFDLCtCQUErQixDQUFDO0FBQUM7QUFBQUMsYUFBQSxHQUFBQyxDQUFBO0FBQ3JESixPQUFBLENBQUFRLFVBQVUsR0FBR04sT0FBTyxDQUFDLDJCQUEyQixDQUFDO0FBQUM7QUFBQUMsYUFBQSxHQUFBQyxDQUFBO0FBQ2xESixPQUFBLENBQUFTLHFCQUFxQixHQUFHUCxPQUFPLENBQUMsc0NBQXNDLENBQUM7QUFBQztBQUFBQyxhQUFBLEdBQUFDLENBQUE7QUFDeEVKLE9BQUEsQ0FBQVUsc0JBQXNCLEdBQUdSLE9BQU8sQ0FBQyxxQ0FBcUMsQ0FBQztBQUFDO0FBQUFDLGFBQUEsR0FBQUMsQ0FBQTtBQUN4RUosT0FBQSxDQUFBVyxTQUFTLEdBQUdULE9BQU8sQ0FBQyx5QkFBeUIsQ0FBQztBQUFDO0FBQUFDLGFBQUEsR0FBQUMsQ0FBQTtBQUMvQ0osT0FBQSxDQUFBWSxVQUFVLEdBQUdWLE9BQU8sQ0FBQywwQkFBMEIsQ0FBQztBQUFDO0FBQUFDLGFBQUEsR0FBQUMsQ0FBQTtBQUNqREosT0FBQSxDQUFBYSxPQUFPLEdBQUdYLE9BQU8sQ0FBQyxvQkFBb0IsQ0FBQztBQUFDO0FBQUFDLGFBQUEsR0FBQUMsQ0FBQTtBQUN4Q0osT0FBQSxDQUFBYyxpQkFBaUIsR0FBR1osT0FBTyxDQUFDLG9CQUFvQixDQUFDO0FBQUM7QUFBQUMsYUFBQSxHQUFBQyxDQUFBO0FBQ2xESixPQUFBLENBQUFlLFlBQVksR0FBR2IsT0FBTyxDQUFDLDBCQUEwQixDQUFDIn0=

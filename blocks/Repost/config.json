@@ -1,0 +1,65 @@
+{
+  "id": "Repost",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Repost",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Repost"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Repost": {
+        "file": "Repost.tsx",
+        "extends": "RepostController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "RepostController",
+            "path": "./RepostController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./RepostController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Repost"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Repost": {
+        "file": "Repost.web.tsx",
+        "extends": "RepostController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "RepostController",
+            "path": "./RepostController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./RepostController"
+          }
+        ]
+      }
+    }
+  }
+}

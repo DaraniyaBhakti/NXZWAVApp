@@ -1,0 +1,20 @@
+8458056908438231e1dafc4ff9339130
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "AirbnbRating", {
+  enumerable: true,
+  get: function get() {
+    return _TapRating.default;
+  }
+});
+Object.defineProperty(exports, "Rating", {
+  enumerable: true,
+  get: function get() {
+    return _SwipeRating.default;
+  }
+});
+var _SwipeRating = _interopRequireDefault(require("./SwipeRating"));
+var _TapRating = _interopRequireDefault(require("./TapRating"));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfU3dpcGVSYXRpbmciLCJfaW50ZXJvcFJlcXVpcmVEZWZhdWx0IiwicmVxdWlyZSIsIl9UYXBSYXRpbmciXSwic291cmNlcyI6WyJpbmRleC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmF0aW5nIGZyb20gJy4vU3dpcGVSYXRpbmcnO1xuaW1wb3J0IEFpcmJuYlJhdGluZyBmcm9tICcuL1RhcFJhdGluZyc7XG5cbmV4cG9ydCB7IFJhdGluZywgQWlyYm5iUmF0aW5nIH1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLElBQUFBLFlBQUEsR0FBQUMsc0JBQUEsQ0FBQUMsT0FBQTtBQUNBLElBQUFDLFVBQUEsR0FBQUYsc0JBQUEsQ0FBQUMsT0FBQSJ9

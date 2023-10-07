@@ -1,0 +1,5 @@
+f3bfc3275a0362501ca2514bdb479b4f
+module.exports = {
+      testUri: 
+        "../../react-native-ratings/src/images/star.png"
+    };

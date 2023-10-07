@@ -1,0 +1,50 @@
+c7cd3d052b03871cb21f0b5b33dfa806
+/* istanbul ignore next */
+function cov_60at6phn6() {
+  var path = "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/assets/lock.png";
+  var hash = "89bde7144f4dca7d73916fa2fb8c8952559dd16e";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/assets/lock.png",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 6
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: null,
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "89bde7144f4dca7d73916fa2fb8c8952559dd16e"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_60at6phn6 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_60at6phn6();
+cov_60at6phn6().s[0]++;
+module.exports = {
+  testUri: "../../../packages/blocks/chat/assets/lock.png"
+};

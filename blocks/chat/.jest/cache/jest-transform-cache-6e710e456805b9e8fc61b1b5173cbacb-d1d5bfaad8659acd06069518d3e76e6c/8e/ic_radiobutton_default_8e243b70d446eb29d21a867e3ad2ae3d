@@ -1,0 +1,50 @@
+b9dd58750fb5201b3e7a024c7f789b88
+/* istanbul ignore next */
+function cov_46ep256gh() {
+  var path = "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/assets/ic_radiobutton_default.png";
+  var hash = "5428d665f5c35dcb406c18ed4169492e4f87eb34";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/assets/ic_radiobutton_default.png",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 6
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: null,
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "5428d665f5c35dcb406c18ed4169492e4f87eb34"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_46ep256gh = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_46ep256gh();
+cov_46ep256gh().s[0]++;
+module.exports = {
+  testUri: "../../../packages/blocks/chat/assets/ic_radiobutton_default.png"
+};

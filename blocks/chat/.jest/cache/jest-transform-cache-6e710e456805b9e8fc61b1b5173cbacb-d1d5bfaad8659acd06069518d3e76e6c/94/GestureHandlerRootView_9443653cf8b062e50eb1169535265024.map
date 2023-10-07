@@ -1,0 +1,1 @@
+{"version":3,"names":["_reactNative","require","View"],"sources":["GestureHandlerRootView.tsx"],"sourcesContent":["import { View } from 'react-native';\n\nexport default View;\n"],"mappings":";;;;;;AAAA,IAAAA,YAAA,GAAAC,OAAA;eAEeD,YAAA,CAAAE,I"}

@@ -1,0 +1,50 @@
+426b45e15f468275a4f34dcb5849b055
+/* istanbul ignore next */
+function cov_1sjkh6gbbl() {
+  var path = "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/assets/red-dollar.png";
+  var hash = "26379dc3ca248fb9b89c1c0e03bb566a7070a8f0";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/assets/red-dollar.png",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 6
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: null,
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "26379dc3ca248fb9b89c1c0e03bb566a7070a8f0"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1sjkh6gbbl = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1sjkh6gbbl();
+cov_1sjkh6gbbl().s[0]++;
+module.exports = {
+  testUri: "../../../packages/blocks/chat/assets/red-dollar.png"
+};

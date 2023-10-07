@@ -1,0 +1,192 @@
+d13cec6d15307e45cbfdad3e2936af64
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "Directions", {
+  enumerable: true,
+  get: function get() {
+    return _Directions.Directions;
+  }
+});
+Object.defineProperty(exports, "State", {
+  enumerable: true,
+  get: function get() {
+    return _State.State;
+  }
+});
+Object.defineProperty(exports, "gestureHandlerRootHOC", {
+  enumerable: true,
+  get: function get() {
+    return _gestureHandlerRootHOC.default;
+  }
+});
+Object.defineProperty(exports, "GestureHandlerRootView", {
+  enumerable: true,
+  get: function get() {
+    return _GestureHandlerRootView.default;
+  }
+});
+Object.defineProperty(exports, "TapGestureHandler", {
+  enumerable: true,
+  get: function get() {
+    return _gestureHandlers.TapGestureHandler;
+  }
+});
+Object.defineProperty(exports, "ForceTouchGestureHandler", {
+  enumerable: true,
+  get: function get() {
+    return _gestureHandlers.ForceTouchGestureHandler;
+  }
+});
+Object.defineProperty(exports, "LongPressGestureHandler", {
+  enumerable: true,
+  get: function get() {
+    return _gestureHandlers.LongPressGestureHandler;
+  }
+});
+Object.defineProperty(exports, "PanGestureHandler", {
+  enumerable: true,
+  get: function get() {
+    return _gestureHandlers.PanGestureHandler;
+  }
+});
+Object.defineProperty(exports, "PinchGestureHandler", {
+  enumerable: true,
+  get: function get() {
+    return _gestureHandlers.PinchGestureHandler;
+  }
+});
+Object.defineProperty(exports, "RotationGestureHandler", {
+  enumerable: true,
+  get: function get() {
+    return _gestureHandlers.RotationGestureHandler;
+  }
+});
+Object.defineProperty(exports, "FlingGestureHandler", {
+  enumerable: true,
+  get: function get() {
+    return _gestureHandlers.FlingGestureHandler;
+  }
+});
+Object.defineProperty(exports, "createNativeWrapper", {
+  enumerable: true,
+  get: function get() {
+    return _createNativeWrapper.default;
+  }
+});
+Object.defineProperty(exports, "NativeViewGestureHandler", {
+  enumerable: true,
+  get: function get() {
+    return _NativeViewGestureHandler.NativeViewGestureHandler;
+  }
+});
+Object.defineProperty(exports, "RawButton", {
+  enumerable: true,
+  get: function get() {
+    return _GestureButtons.RawButton;
+  }
+});
+Object.defineProperty(exports, "BaseButton", {
+  enumerable: true,
+  get: function get() {
+    return _GestureButtons.BaseButton;
+  }
+});
+Object.defineProperty(exports, "RectButton", {
+  enumerable: true,
+  get: function get() {
+    return _GestureButtons.RectButton;
+  }
+});
+Object.defineProperty(exports, "BorderlessButton", {
+  enumerable: true,
+  get: function get() {
+    return _GestureButtons.BorderlessButton;
+  }
+});
+Object.defineProperty(exports, "TouchableHighlight", {
+  enumerable: true,
+  get: function get() {
+    return _touchables.TouchableHighlight;
+  }
+});
+Object.defineProperty(exports, "TouchableNativeFeedback", {
+  enumerable: true,
+  get: function get() {
+    return _touchables.TouchableNativeFeedback;
+  }
+});
+Object.defineProperty(exports, "TouchableOpacity", {
+  enumerable: true,
+  get: function get() {
+    return _touchables.TouchableOpacity;
+  }
+});
+Object.defineProperty(exports, "TouchableWithoutFeedback", {
+  enumerable: true,
+  get: function get() {
+    return _touchables.TouchableWithoutFeedback;
+  }
+});
+Object.defineProperty(exports, "ScrollView", {
+  enumerable: true,
+  get: function get() {
+    return _GestureComponents.ScrollView;
+  }
+});
+Object.defineProperty(exports, "Switch", {
+  enumerable: true,
+  get: function get() {
+    return _GestureComponents.Switch;
+  }
+});
+Object.defineProperty(exports, "TextInput", {
+  enumerable: true,
+  get: function get() {
+    return _GestureComponents.TextInput;
+  }
+});
+Object.defineProperty(exports, "DrawerLayoutAndroid", {
+  enumerable: true,
+  get: function get() {
+    return _GestureComponents.DrawerLayoutAndroid;
+  }
+});
+Object.defineProperty(exports, "FlatList", {
+  enumerable: true,
+  get: function get() {
+    return _GestureComponents.FlatList;
+  }
+});
+Object.defineProperty(exports, "Swipeable", {
+  enumerable: true,
+  get: function get() {
+    return _Swipeable.default;
+  }
+});
+Object.defineProperty(exports, "DrawerLayout", {
+  enumerable: true,
+  get: function get() {
+    return _DrawerLayout.default;
+  }
+});
+var _Directions = require("./Directions");
+var _State = require("./State");
+var _gestureHandlerRootHOC = _interopRequireDefault(require("./gestureHandlerRootHOC"));
+var _GestureHandlerRootView = _interopRequireDefault(require("./GestureHandlerRootView"));
+var _gestureHandlers = require("./handlers/gestureHandlers");
+var _createNativeWrapper = _interopRequireDefault(require("./handlers/createNativeWrapper"));
+var _NativeViewGestureHandler = require("./handlers/NativeViewGestureHandler");
+var _GestureButtons = require("./components/GestureButtons");
+var _touchables = require("./components/touchables");
+var _GestureComponents = require("./components/GestureComponents");
+var _Swipeable = _interopRequireDefault(require("./components/Swipeable"));
+var _DrawerLayout = _interopRequireDefault(require("./components/DrawerLayout"));
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfRGlyZWN0aW9ucyIsInJlcXVpcmUiLCJfU3RhdGUiLCJfZ2VzdHVyZUhhbmRsZXJSb290SE9DIiwiX2ludGVyb3BSZXF1aXJlRGVmYXVsdCIsIl9HZXN0dXJlSGFuZGxlclJvb3RWaWV3IiwiX2dlc3R1cmVIYW5kbGVycyIsIl9jcmVhdGVOYXRpdmVXcmFwcGVyIiwiX05hdGl2ZVZpZXdHZXN0dXJlSGFuZGxlciIsIl9HZXN0dXJlQnV0dG9ucyIsIl90b3VjaGFibGVzIiwiX0dlc3R1cmVDb21wb25lbnRzIiwiX1N3aXBlYWJsZSIsIl9EcmF3ZXJMYXlvdXQiXSwic291cmNlcyI6WyJpbmRleC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBEaXJlY3Rpb25zIH0gZnJvbSAnLi9EaXJlY3Rpb25zJztcbmV4cG9ydCB7IFN0YXRlIH0gZnJvbSAnLi9TdGF0ZSc7XG5leHBvcnQgeyBkZWZhdWx0IGFzIGdlc3R1cmVIYW5kbGVyUm9vdEhPQyB9IGZyb20gJy4vZ2VzdHVyZUhhbmRsZXJSb290SE9DJztcbmV4cG9ydCB7IGRlZmF1bHQgYXMgR2VzdHVyZUhhbmRsZXJSb290VmlldyB9IGZyb20gJy4vR2VzdHVyZUhhbmRsZXJSb290Vmlldyc7XG5leHBvcnQgdHlwZSB7XG4gIC8vIGV2ZW50IHR5cGVzXG4gIEdlc3R1cmVFdmVudCxcbiAgSGFuZGxlclN0YXRlQ2hhbmdlRXZlbnQsXG4gIC8vIGV2ZW50IHBheWxvYWRzIHR5cGVzXG4gIEdlc3R1cmVFdmVudFBheWxvYWQsXG4gIEhhbmRsZXJTdGF0ZUNoYW5nZUV2ZW50UGF5bG9hZCxcbiAgVGFwR2VzdHVyZUhhbmRsZXJFdmVudFBheWxvYWQsXG4gIEZvcmNlVG91Y2hHZXN0dXJlSGFuZGxlckV2ZW50UGF5bG9hZCxcbiAgTG9uZ1ByZXNzR2VzdHVyZUhhbmRsZXJFdmVudFBheWxvYWQsXG4gIFBhbkdlc3R1cmVIYW5kbGVyRXZlbnRQYXlsb2FkLFxuICBQaW5jaEdlc3R1cmVIYW5kbGVyRXZlbnRQYXlsb2FkLFxuICBSb3RhdGlvbkdlc3R1cmVIYW5kbGVyRXZlbnRQYXlsb2FkLFxuICBGbGluZ0dlc3R1cmVIYW5kbGVyRXZlbnRQYXlsb2FkLFxuICAvLyBnZXN0dXJlIGhhbmRsZXJzIHByb3BzIHR5cGVzXG4gIFRhcEdlc3R1cmVIYW5kbGVyUHJvcHMsXG4gIEZvcmNlVG91Y2hHZXN0dXJlSGFuZGxlclByb3BzLFxuICBMb25nUHJlc3NHZXN0dXJlSGFuZGxlclByb3BzLFxuICBQYW5HZXN0dXJlSGFuZGxlclByb3BzLFxuICBQaW5jaEdlc3R1cmVIYW5kbGVyUHJvcHMsXG4gIFJvdGF0aW9uR2VzdHVyZUhhbmRsZXJQcm9wcyxcbiAgRmxpbmdHZXN0dXJlSGFuZGxlclByb3BzLFxufSBmcm9tICcuL2hhbmRsZXJzL2dlc3R1cmVIYW5kbGVycyc7XG5leHBvcnQge1xuICBUYXBHZXN0dXJlSGFuZGxlcixcbiAgRm9yY2VUb3VjaEdlc3R1cmVIYW5kbGVyLFxuICBMb25nUHJlc3NHZXN0dXJlSGFuZGxlcixcbiAgUGFuR2VzdHVyZUhhbmRsZXIsXG4gIFBpbmNoR2VzdHVyZUhhbmRsZXIsXG4gIFJvdGF0aW9uR2VzdHVyZUhhbmRsZXIsXG4gIEZsaW5nR2VzdHVyZUhhbmRsZXIsXG59IGZyb20gJy4vaGFuZGxlcnMvZ2VzdHVyZUhhbmRsZXJzJztcbmV4cG9ydCB7IGRlZmF1bHQgYXMgY3JlYXRlTmF0aXZlV3JhcHBlciB9IGZyb20gJy4vaGFuZGxlcnMvY3JlYXRlTmF0aXZlV3JhcHBlcic7XG5leHBvcnQgdHlwZSB7XG4gIE5hdGl2ZVZpZXdHZXN0dXJlSGFuZGxlclBheWxvYWQsXG4gIE5hdGl2ZVZpZXdHZXN0dXJlSGFuZGxlclByb3BzLFxufSBmcm9tICcuL2hhbmRsZXJzL05hdGl2ZVZpZXdHZXN0dXJlSGFuZGxlcic7XG5leHBvcnQgeyBOYXRpdmVWaWV3R2VzdHVyZUhhbmRsZXIgfSBmcm9tICcuL2hhbmRsZXJzL05hdGl2ZVZpZXdHZXN0dXJlSGFuZGxlcic7XG5leHBvcnQgdHlwZSB7XG4gIFJhd0J1dHRvblByb3BzLFxuICBCYXNlQnV0dG9uUHJvcHMsXG4gIFJlY3RCdXR0b25Qcm9wcyxcbiAgQm9yZGVybGVzc0J1dHRvblByb3BzLFxufSBmcm9tICcuL2NvbXBvbmVudHMvR2VzdHVyZUJ1dHRvbnMnO1xuZXhwb3J0IHtcbiAgUmF3QnV0dG9uLFxuICBCYXNlQnV0dG9uLFxuICBSZWN0QnV0dG9uLFxuICBCb3JkZXJsZXNzQnV0dG9uLFxufSBmcm9tICcuL2NvbXBvbmVudHMvR2VzdHVyZUJ1dHRvbnMnO1xuZXhwb3J0IHtcbiAgVG91Y2hhYmxlSGlnaGxpZ2h0LFxuICBUb3VjaGFibGVOYXRpdmVGZWVkYmFjayxcbiAgVG91Y2hhYmxlT3BhY2l0eSxcbiAgVG91Y2hhYmxlV2l0aG91dEZlZWRiYWNrLFxufSBmcm9tICcuL2NvbXBvbmVudHMvdG91Y2hhYmxlcyc7XG5leHBvcnQge1xuICBTY3JvbGxWaWV3LFxuICBTd2l0Y2gsXG4gIFRleHRJbnB1dCxcbiAgRHJhd2VyTGF5b3V0QW5kcm9pZCxcbiAgRmxhdExpc3QsXG59IGZyb20gJy4vY29tcG9uZW50cy9HZXN0dXJlQ29tcG9uZW50cyc7XG5leHBvcnQgdHlwZSB7XG4gIC8vZXZlbnRzXG4gIEdlc3R1cmVIYW5kbGVyR2VzdHVyZUV2ZW50LFxuICBHZXN0dXJlSGFuZGxlclN0YXRlQ2hhbmdlRXZlbnQsXG4gIC8vZXZlbnQgcGF5bG9hZHNcbiAgR2VzdHVyZUhhbmRsZXJHZXN0dXJlRXZlbnROYXRpdmVFdmVudCxcbiAgR2VzdHVyZUhhbmRsZXJTdGF0ZUNoYW5nZU5hdGl2ZUV2ZW50LFxuICBOYXRpdmVWaWV3R2VzdHVyZUhhbmRsZXJHZXN0dXJlRXZlbnQsXG4gIE5hdGl2ZVZpZXdHZXN0dXJlSGFuZGxlclN0YXRlQ2hhbmdlRXZlbnQsXG4gIFRhcEdlc3R1cmVIYW5kbGVyR2VzdHVyZUV2ZW50LFxuICBUYXBHZXN0dXJlSGFuZGxlclN0YXRlQ2hhbmdlRXZlbnQsXG4gIEZvcmNlVG91Y2hHZXN0dXJlSGFuZGxlckdlc3R1cmVFdmVudCxcbiAgRm9yY2VUb3VjaEdlc3R1cmVIYW5kbGVyU3RhdGVDaGFuZ2VFdmVudCxcbiAgTG9uZ1ByZXNzR2VzdHVyZUhhbmRsZXJHZXN0dXJlRXZlbnQsXG4gIExvbmdQcmVzc0dlc3R1cmVIYW5kbGVyU3RhdGVDaGFuZ2VFdmVudCxcbiAgUGFuR2VzdHVyZUhhbmRsZXJHZXN0dXJlRXZlbnQsXG4gIFBhbkdlc3R1cmVIYW5kbGVyU3RhdGVDaGFuZ2VFdmVudCxcbiAgUGluY2hHZXN0dXJlSGFuZGxlckdlc3R1cmVFdmVudCxcbiAgUGluY2hHZXN0dXJlSGFuZGxlclN0YXRlQ2hhbmdlRXZlbnQsXG4gIFJvdGF0aW9uR2VzdHVyZUhhbmRsZXJHZXN0dXJlRXZlbnQsXG4gIFJvdGF0aW9uR2VzdHVyZUhhbmRsZXJTdGF0ZUNoYW5nZUV2ZW50LFxuICBGbGluZ0dlc3R1cmVIYW5kbGVyR2VzdHVyZUV2ZW50LFxuICBGbGluZ0dlc3R1cmVIYW5kbGVyU3RhdGVDaGFuZ2VFdmVudCxcbiAgLy8gaGFuZGxlcnMgcHJvcHNcbiAgTmF0aXZlVmlld0dlc3R1cmVIYW5kbGVyUHJvcGVydGllcyxcbiAgVGFwR2VzdHVyZUhhbmRsZXJQcm9wZXJ0aWVzLFxuICBMb25nUHJlc3NHZXN0dXJlSGFuZGxlclByb3BlcnRpZXMsXG4gIFBhbkdlc3R1cmVIYW5kbGVyUHJvcGVydGllcyxcbiAgUGluY2hHZXN0dXJlSGFuZGxlclByb3BlcnRpZXMsXG4gIFJvdGF0aW9uR2VzdHVyZUhhbmRsZXJQcm9wZXJ0aWVzLFxuICBGbGluZ0dlc3R1cmVIYW5kbGVyUHJvcGVydGllcyxcbiAgRm9yY2VUb3VjaEdlc3R1cmVIYW5kbGVyUHJvcGVydGllcyxcbiAgLy8gYnV0dG9ucyBwcm9wc1xuICBSYXdCdXR0b25Qcm9wZXJ0aWVzLFxuICBCYXNlQnV0dG9uUHJvcGVydGllcyxcbiAgUmVjdEJ1dHRvblByb3BlcnRpZXMsXG4gIEJvcmRlcmxlc3NCdXR0b25Qcm9wZXJ0aWVzLFxufSBmcm9tICcuL2hhbmRsZXJzL2dlc3R1cmVIYW5kbGVyVHlwZXNDb21wYXQnO1xuXG5leHBvcnQgeyBkZWZhdWx0IGFzIFN3aXBlYWJsZSB9IGZyb20gJy4vY29tcG9uZW50cy9Td2lwZWFibGUnO1xuZXhwb3J0IHR5cGUge1xuICBEcmF3ZXJMYXlvdXRQcm9wcyxcbiAgRHJhd2VyUG9zaXRpb24sXG4gIERyYXdlclN0YXRlLFxuICBEcmF3ZXJUeXBlLFxuICBEcmF3ZXJMb2NrTW9kZSxcbiAgRHJhd2VyS2V5Ym9hcmREaXNtaXNzTW9kZSxcbn0gZnJvbSAnLi9jb21wb25lbnRzL0RyYXdlckxheW91dCc7XG5leHBvcnQgeyBkZWZhdWx0IGFzIERyYXdlckxheW91dCB9IGZyb20gJy4vY29tcG9uZW50cy9EcmF3ZXJMYXlvdXQnO1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLElBQUFBLFdBQUEsR0FBQUMsT0FBQTtBQUNBLElBQUFDLE1BQUEsR0FBQUQsT0FBQTtBQUNBLElBQUFFLHNCQUFBLEdBQUFDLHNCQUFBLENBQUFILE9BQUE7QUFDQSxJQUFBSSx1QkFBQSxHQUFBRCxzQkFBQSxDQUFBSCxPQUFBO0FBd0JBLElBQUFLLGdCQUFBLEdBQUFMLE9BQUE7QUFTQSxJQUFBTSxvQkFBQSxHQUFBSCxzQkFBQSxDQUFBSCxPQUFBO0FBS0EsSUFBQU8seUJBQUEsR0FBQVAsT0FBQTtBQU9BLElBQUFRLGVBQUEsR0FBQVIsT0FBQTtBQU1BLElBQUFTLFdBQUEsR0FBQVQsT0FBQTtBQU1BLElBQUFVLGtCQUFBLEdBQUFWLE9BQUE7QUE4Q0EsSUFBQVcsVUFBQSxHQUFBUixzQkFBQSxDQUFBSCxPQUFBO0FBU0EsSUFBQVksYUFBQSxHQUFBVCxzQkFBQSxDQUFBSCxPQUFBIn0=

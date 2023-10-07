@@ -1,0 +1,33 @@
+794d311aa9d2309bbb66f904e28315e9
+"use strict";
+
+var _interopRequireDefault2 = require("@babel/runtime/helpers/interopRequireDefault");
+var _classCallCheck2 = _interopRequireDefault2(require("@babel/runtime/helpers/classCallCheck"));
+var _createClass2 = _interopRequireDefault2(require("@babel/runtime/helpers/createClass"));
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _AsyncStorage = _interopRequireDefault(require("./AsyncStorage"));
+var _defaults = require("./defaults");
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+var AsyncStorageFactory = function () {
+  function AsyncStorageFactory() {
+    (0, _classCallCheck2.default)(this, AsyncStorageFactory);
+    throw new Error("[AsyncStorage] AsyncStorageFactory must not be instantiated.\nInstead, use its 'create' method to create AsyncStorage instance.");
+  }
+  (0, _createClass2.default)(AsyncStorageFactory, null, [{
+    key: "create",
+    value: function create(storage, opts) {
+      return new _AsyncStorage.default(storage, opts || _defaults.factoryOptions);
+    }
+  }]);
+  return AsyncStorageFactory;
+}();
+var _default = AsyncStorageFactory;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfQXN5bmNTdG9yYWdlIiwiX2ludGVyb3BSZXF1aXJlRGVmYXVsdCIsInJlcXVpcmUiLCJfZGVmYXVsdHMiLCJBc3luY1N0b3JhZ2VGYWN0b3J5IiwiX2NsYXNzQ2FsbENoZWNrMiIsImRlZmF1bHQiLCJFcnJvciIsIl9jcmVhdGVDbGFzczIiLCJrZXkiLCJ2YWx1ZSIsImNyZWF0ZSIsInN0b3JhZ2UiLCJvcHRzIiwiZmFjdG9yeU9wdGlvbnMiXSwic291cmNlcyI6WyIuLi9zcmMvaW5kZXgudHMiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBDb3B5cmlnaHQgKGMpIFJlYWN0IE5hdGl2ZSBDb21tdW5pdHkuXG4gKlxuICogVGhpcyBzb3VyY2UgY29kZSBpcyBsaWNlbnNlZCB1bmRlciB0aGUgTUlUIGxpY2Vuc2UgZm91bmQgaW4gdGhlXG4gKiBMSUNFTlNFIGZpbGUgaW4gdGhlIHJvb3QgZGlyZWN0b3J5IG9mIHRoaXMgc291cmNlIHRyZWUuXG4gKlxuICovXG5cbmltcG9ydCBBc3luY1N0b3JhZ2UgZnJvbSAnLi9Bc3luY1N0b3JhZ2UnO1xuaW1wb3J0IHtmYWN0b3J5T3B0aW9uc30gZnJvbSAnLi9kZWZhdWx0cyc7XG5pbXBvcnQge0lTdG9yYWdlQmFja2VuZCwgRmFjdG9yeU9wdGlvbnMsIEVtcHR5U3RvcmFnZU1vZGVsfSBmcm9tICcuLi90eXBlcyc7XG5cbmNsYXNzIEFzeW5jU3RvcmFnZUZhY3Rvcnkge1xuICBjb25zdHJ1Y3RvcigpIHtcbiAgICB0aHJvdyBuZXcgRXJyb3IoXG4gICAgICBcIltBc3luY1N0b3JhZ2VdIEFzeW5jU3RvcmFnZUZhY3RvcnkgbXVzdCBub3QgYmUgaW5zdGFudGlhdGVkLlxcbkluc3RlYWQsIHVzZSBpdHMgJ2NyZWF0ZScgbWV0aG9kIHRvIGNyZWF0ZSBBc3luY1N0b3JhZ2UgaW5zdGFuY2UuXCIsXG4gICAgKTtcbiAgfVxuXG4gIHN0YXRpYyBjcmVhdGU8TSA9IEVtcHR5U3RvcmFnZU1vZGVsPihcbiAgICBzdG9yYWdlOiBJU3RvcmFnZUJhY2tlbmQsXG4gICAgb3B0cz86IEZhY3RvcnlPcHRpb25zLFxuICApIHtcbiAgICByZXR1cm4gbmV3IEFzeW5jU3RvcmFnZTxNLCBJU3RvcmFnZUJhY2tlbmQ8TT4+KFxuICAgICAgc3RvcmFnZSxcbiAgICAgIG9wdHMgfHwgZmFjdG9yeU9wdGlvbnMsXG4gICAgKTtcbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBBc3luY1N0b3JhZ2VGYWN0b3J5O1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFRQSxJQUFBQSxhQUFBLEdBQUFDLHNCQUFBLENBQUFDLE9BQUE7QUFDQSxJQUFBQyxTQUFBLEdBQUFELE9BQUE7Ozs7OztJQUdNRSxtQkFBTjtFQUNFLFNBQUFBLG9CQUFBLEVBQWM7SUFBQSxJQUFBQyxnQkFBQSxDQUFBQyxPQUFBLFFBQUFGLG1CQUFBO0lBQ1osTUFBTSxJQUFJRyxLQUFKLENBQ0osaUlBREksQ0FBTjtFQUdEO0VBQUEsSUFBQUMsYUFBQSxDQUFBRixPQUFBLEVBQUFGLG1CQUFBO0lBQUFLLEdBQUE7SUFBQUMsS0FBQSxFQUVELFNBQUFDLE9BQ0VDLE9BREYsRUFFRUMsSUFGRixFQUdFO01BQ0EsT0FBTyxJQUFJYixhQUFBLENBQUFNLE9BQUosQ0FDTE0sT0FESyxFQUVMQyxJQUFJLElBQUlWLFNBQUEsQ0FBQVcsY0FGSCxDQUFQO0lBSUQ7RUFBQTtFQUFBLE9BQUFWLG1CQUFBO0FBQUE7ZUFHWUEsbUIifQ==

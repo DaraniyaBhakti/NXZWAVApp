@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/__tests__/step-definitions/chat.web.steps.tsx">
+    </file>
+    <file path="/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/__tests__/step-definitions/PMCompose.steps.tsx">
+        <testCase name="PMCompose User navigates to PMCompose" duration="314"/>
+    </file>
+    <file path="/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/__tests__/step-definitions/PMChatView.steps.tsx">
+        <testCase name="PMChatView User navigates to PMChatView" duration="563"/>
+    </file>
+    <file path="/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/__tests__/step-definitions/chat.steps.tsx">
+    </file>
+    <file path="/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/__tests__/step-definitions/ChatNew.steps.tsx">
+        <testCase name="ChatNew User navigates to ChatNew" duration="213"/>
+    </file>
+    <file path="/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/__tests__/step-definitions/ChatView.steps.tsx">
+        <testCase name="ChatView User navigates to ChatView" duration="242"/>
+    </file>
+    <file path="/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/__tests__/step-definitions/ChatView.web.steps.tsx">
+        <testCase name="ChatView User navigates to ChatView" duration="37"/>
+    </file>
+</testExecutions>

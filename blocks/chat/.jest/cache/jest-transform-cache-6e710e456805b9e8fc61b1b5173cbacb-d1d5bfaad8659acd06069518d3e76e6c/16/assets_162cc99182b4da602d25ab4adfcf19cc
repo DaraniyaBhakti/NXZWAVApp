@@ -1,0 +1,256 @@
+88ff49b321c739575798f807c9791bd9
+"use strict";
+
+/* istanbul ignore next */
+function cov_5hvcbecj7() {
+  var path = "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/src/assets.tsx";
+  var hash = "c195ad8f29bd11beec148a14dfdda3f6f59b5686";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/src/assets.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 333
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 60
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 51
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 6,
+          column: 72
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 0
+        },
+        end: {
+          line: 7,
+          column: 64
+        }
+      },
+      "6": {
+        start: {
+          line: 8,
+          column: 0
+        },
+        end: {
+          line: 8,
+          column: 57
+        }
+      },
+      "7": {
+        start: {
+          line: 9,
+          column: 0
+        },
+        end: {
+          line: 9,
+          column: 83
+        }
+      },
+      "8": {
+        start: {
+          line: 10,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 83
+        }
+      },
+      "9": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 58
+        }
+      },
+      "10": {
+        start: {
+          line: 12,
+          column: 0
+        },
+        end: {
+          line: 12,
+          column: 60
+        }
+      },
+      "11": {
+        start: {
+          line: 13,
+          column: 0
+        },
+        end: {
+          line: 13,
+          column: 70
+        }
+      },
+      "12": {
+        start: {
+          line: 14,
+          column: 0
+        },
+        end: {
+          line: 14,
+          column: 48
+        }
+      },
+      "13": {
+        start: {
+          line: 15,
+          column: 0
+        },
+        end: {
+          line: 15,
+          column: 58
+        }
+      },
+      "14": {
+        start: {
+          line: 16,
+          column: 0
+        },
+        end: {
+          line: 16,
+          column: 59
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      file: "/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/src/assets.tsx",
+      sources: ["/Users/macm14/Documents/NXZWAW/nxzwav-294793-react-native/src/packages/blocks/chat/src/assets.tsx"],
+      names: [],
+      mappings: ";;;AAAa,QAAA,WAAW,GAAG,OAAO,CAAC,4BAA4B,CAAC,CAAC;AACpD,QAAA,WAAW,GAAG,OAAO,CAAC,mBAAmB,CAAC,CAAC;AAE3C,QAAA,eAAe,GAAG,OAAO,CAAC,oCAAoC,CAAC,CAAC;AAChE,QAAA,YAAY,GAAG,OAAO,CAAC,+BAA+B,CAAC,CAAC;AACxD,QAAA,SAAS,GAAG,OAAO,CAAC,2BAA2B,CAAC,CAAC;AACjD,QAAA,wBAAwB,GAAG,OAAO,CAAC,sCAAsC,CAAC,CAAC;AAC3E,QAAA,yBAAyB,GAAG,OAAO,CAAC,qCAAqC,CAAC,CAAC;AAC3E,QAAA,YAAY,GAAG,OAAO,CAAC,yBAAyB,CAAC,CAAC;AAClD,QAAA,aAAa,GAAG,OAAO,CAAC,0BAA0B,CAAC,CAAC;AACpD,QAAA,eAAe,GAAG,OAAO,CAAC,kCAAkC,CAAC,CAAC;AAC9D,QAAA,OAAO,GAAG,OAAO,CAAC,oBAAoB,CAAC,CAAC;AACxC,QAAA,iBAAiB,GAAG,OAAO,CAAC,oBAAoB,CAAC,CAAC;AAClD,QAAA,YAAY,GAAG,OAAO,CAAC,0BAA0B,CAAC,CAAC",
+      sourcesContent: ["export const insertPhoto = require(\"../assets/insert_photo.png\");\nexport const imgPlusIcon = require(\"../assets/add.png\");\n\nexport const icArrowBackChat = require(\"../assets/ic_arrow_right_round.png\");\nexport const icSearchChat = require(\"../assets/ic_search_black.png\");\nexport const icNewChat = require(\"../assets/ic_new_chat.png\");\nexport const icDefaultRadioButtonChat = require(\"../assets/ic_radiobutton_default.png\");\nexport const icSelectedRadioButtonChat = require(\"../assets/ic_radiobutton_select.png\");\nexport const icDeleteChat = require(\"../assets/ic_delete.png\");\nexport const icMessageChat = require(\"../assets/ic_message.png\");\nexport const icDmMessageChat = require(\"../assets/ic_dm_message_icon.png\");\nexport const imgLock = require(\"../assets/lock.png\");\nexport const imgRedMessageEdit = require(\"../assets/edit.png\");\nexport const imgRedDollar = require(\"../assets/red-dollar.png\");\n"]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "c195ad8f29bd11beec148a14dfdda3f6f59b5686"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_5hvcbecj7 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_5hvcbecj7();
+cov_5hvcbecj7().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_5hvcbecj7().s[1]++;
+exports.imgRedDollar = exports.imgRedMessageEdit = exports.imgLock = exports.icDmMessageChat = exports.icMessageChat = exports.icDeleteChat = exports.icSelectedRadioButtonChat = exports.icDefaultRadioButtonChat = exports.icNewChat = exports.icSearchChat = exports.icArrowBackChat = exports.imgPlusIcon = exports.insertPhoto = void 0;
+/* istanbul ignore next */
+cov_5hvcbecj7().s[2]++;
+exports.insertPhoto = require("../assets/insert_photo.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[3]++;
+exports.imgPlusIcon = require("../assets/add.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[4]++;
+exports.icArrowBackChat = require("../assets/ic_arrow_right_round.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[5]++;
+exports.icSearchChat = require("../assets/ic_search_black.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[6]++;
+exports.icNewChat = require("../assets/ic_new_chat.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[7]++;
+exports.icDefaultRadioButtonChat = require("../assets/ic_radiobutton_default.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[8]++;
+exports.icSelectedRadioButtonChat = require("../assets/ic_radiobutton_select.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[9]++;
+exports.icDeleteChat = require("../assets/ic_delete.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[10]++;
+exports.icMessageChat = require("../assets/ic_message.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[11]++;
+exports.icDmMessageChat = require("../assets/ic_dm_message_icon.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[12]++;
+exports.imgLock = require("../assets/lock.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[13]++;
+exports.imgRedMessageEdit = require("../assets/edit.png");
+/* istanbul ignore next */
+cov_5hvcbecj7().s[14]++;
+exports.imgRedDollar = require("../assets/red-dollar.png");
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfNWh2Y2JlY2o3IiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiZXhwb3J0cyIsImluc2VydFBob3RvIiwicmVxdWlyZSIsImltZ1BsdXNJY29uIiwiaWNBcnJvd0JhY2tDaGF0IiwiaWNTZWFyY2hDaGF0IiwiaWNOZXdDaGF0IiwiaWNEZWZhdWx0UmFkaW9CdXR0b25DaGF0IiwiaWNTZWxlY3RlZFJhZGlvQnV0dG9uQ2hhdCIsImljRGVsZXRlQ2hhdCIsImljTWVzc2FnZUNoYXQiLCJpY0RtTWVzc2FnZUNoYXQiLCJpbWdMb2NrIiwiaW1nUmVkTWVzc2FnZUVkaXQiLCJpbWdSZWREb2xsYXIiXSwic291cmNlcyI6WyIvVXNlcnMvbWFjbTE0L0RvY3VtZW50cy9OWFpXQVcvbnh6d2F2LTI5NDc5My1yZWFjdC1uYXRpdmUvc3JjL3BhY2thZ2VzL2Jsb2Nrcy9jaGF0L3NyYy9hc3NldHMudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBpbnNlcnRQaG90byA9IHJlcXVpcmUoXCIuLi9hc3NldHMvaW5zZXJ0X3Bob3RvLnBuZ1wiKTtcbmV4cG9ydCBjb25zdCBpbWdQbHVzSWNvbiA9IHJlcXVpcmUoXCIuLi9hc3NldHMvYWRkLnBuZ1wiKTtcblxuZXhwb3J0IGNvbnN0IGljQXJyb3dCYWNrQ2hhdCA9IHJlcXVpcmUoXCIuLi9hc3NldHMvaWNfYXJyb3dfcmlnaHRfcm91bmQucG5nXCIpO1xuZXhwb3J0IGNvbnN0IGljU2VhcmNoQ2hhdCA9IHJlcXVpcmUoXCIuLi9hc3NldHMvaWNfc2VhcmNoX2JsYWNrLnBuZ1wiKTtcbmV4cG9ydCBjb25zdCBpY05ld0NoYXQgPSByZXF1aXJlKFwiLi4vYXNzZXRzL2ljX25ld19jaGF0LnBuZ1wiKTtcbmV4cG9ydCBjb25zdCBpY0RlZmF1bHRSYWRpb0J1dHRvbkNoYXQgPSByZXF1aXJlKFwiLi4vYXNzZXRzL2ljX3JhZGlvYnV0dG9uX2RlZmF1bHQucG5nXCIpO1xuZXhwb3J0IGNvbnN0IGljU2VsZWN0ZWRSYWRpb0J1dHRvbkNoYXQgPSByZXF1aXJlKFwiLi4vYXNzZXRzL2ljX3JhZGlvYnV0dG9uX3NlbGVjdC5wbmdcIik7XG5leHBvcnQgY29uc3QgaWNEZWxldGVDaGF0ID0gcmVxdWlyZShcIi4uL2Fzc2V0cy9pY19kZWxldGUucG5nXCIpO1xuZXhwb3J0IGNvbnN0IGljTWVzc2FnZUNoYXQgPSByZXF1aXJlKFwiLi4vYXNzZXRzL2ljX21lc3NhZ2UucG5nXCIpO1xuZXhwb3J0IGNvbnN0IGljRG1NZXNzYWdlQ2hhdCA9IHJlcXVpcmUoXCIuLi9hc3NldHMvaWNfZG1fbWVzc2FnZV9pY29uLnBuZ1wiKTtcbmV4cG9ydCBjb25zdCBpbWdMb2NrID0gcmVxdWlyZShcIi4uL2Fzc2V0cy9sb2NrLnBuZ1wiKTtcbmV4cG9ydCBjb25zdCBpbWdSZWRNZXNzYWdlRWRpdCA9IHJlcXVpcmUoXCIuLi9hc3NldHMvZWRpdC5wbmdcIik7XG5leHBvcnQgY29uc3QgaW1nUmVkRG9sbGFyID0gcmVxdWlyZShcIi4uL2Fzc2V0cy9yZWQtZG9sbGFyLnBuZ1wiKTtcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFhYTtJQUFBQSxhQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxhQUFBO0FBQUFBLGFBQUEsR0FBQUUsQ0FBQTs7Ozs7Ozs7O0FBYkFDLE9BQUEsQ0FBQUMsV0FBVyxHQUFHQyxPQUFPLENBQUMsNEJBQTRCLENBQUM7QUFBQztBQUFBTCxhQUFBLEdBQUFFLENBQUE7QUFDcERDLE9BQUEsQ0FBQUcsV0FBVyxHQUFHRCxPQUFPLENBQUMsbUJBQW1CLENBQUM7QUFBQztBQUFBTCxhQUFBLEdBQUFFLENBQUE7QUFFM0NDLE9BQUEsQ0FBQUksZUFBZSxHQUFHRixPQUFPLENBQUMsb0NBQW9DLENBQUM7QUFBQztBQUFBTCxhQUFBLEdBQUFFLENBQUE7QUFDaEVDLE9BQUEsQ0FBQUssWUFBWSxHQUFHSCxPQUFPLENBQUMsK0JBQStCLENBQUM7QUFBQztBQUFBTCxhQUFBLEdBQUFFLENBQUE7QUFDeERDLE9BQUEsQ0FBQU0sU0FBUyxHQUFHSixPQUFPLENBQUMsMkJBQTJCLENBQUM7QUFBQztBQUFBTCxhQUFBLEdBQUFFLENBQUE7QUFDakRDLE9BQUEsQ0FBQU8sd0JBQXdCLEdBQUdMLE9BQU8sQ0FBQyxzQ0FBc0MsQ0FBQztBQUFDO0FBQUFMLGFBQUEsR0FBQUUsQ0FBQTtBQUMzRUMsT0FBQSxDQUFBUSx5QkFBeUIsR0FBR04sT0FBTyxDQUFDLHFDQUFxQyxDQUFDO0FBQUM7QUFBQUwsYUFBQSxHQUFBRSxDQUFBO0FBQzNFQyxPQUFBLENBQUFTLFlBQVksR0FBR1AsT0FBTyxDQUFDLHlCQUF5QixDQUFDO0FBQUM7QUFBQUwsYUFBQSxHQUFBRSxDQUFBO0FBQ2xEQyxPQUFBLENBQUFVLGFBQWEsR0FBR1IsT0FBTyxDQUFDLDBCQUEwQixDQUFDO0FBQUM7QUFBQUwsYUFBQSxHQUFBRSxDQUFBO0FBQ3BEQyxPQUFBLENBQUFXLGVBQWUsR0FBR1QsT0FBTyxDQUFDLGtDQUFrQyxDQUFDO0FBQUM7QUFBQUwsYUFBQSxHQUFBRSxDQUFBO0FBQzlEQyxPQUFBLENBQUFZLE9BQU8sR0FBR1YsT0FBTyxDQUFDLG9CQUFvQixDQUFDO0FBQUM7QUFBQUwsYUFBQSxHQUFBRSxDQUFBO0FBQ3hDQyxPQUFBLENBQUFhLGlCQUFpQixHQUFHWCxPQUFPLENBQUMsb0JBQW9CLENBQUM7QUFBQztBQUFBTCxhQUFBLEdBQUFFLENBQUE7QUFDbERDLE9BQUEsQ0FBQWMsWUFBWSxHQUFHWixPQUFPLENBQUMsMEJBQTBCLENBQUMifQ==

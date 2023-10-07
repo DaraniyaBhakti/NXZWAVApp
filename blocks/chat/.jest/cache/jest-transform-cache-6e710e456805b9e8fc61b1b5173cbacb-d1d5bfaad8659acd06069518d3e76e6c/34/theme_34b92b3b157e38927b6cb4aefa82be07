@@ -1,0 +1,12 @@
+3750a438b8366cd3aae4b91f02c443a3
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _colors = _interopRequireDefault(require("./colors"));
+var _default = {
+  colors: _colors.default
+};
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfY29sb3JzIiwiX2ludGVyb3BSZXF1aXJlRGVmYXVsdCIsInJlcXVpcmUiLCJfZGVmYXVsdCIsImNvbG9ycyIsImV4cG9ydHMiLCJkZWZhdWx0Il0sInNvdXJjZXMiOlsidGhlbWUuanMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGNvbG9ycyBmcm9tICcuL2NvbG9ycyc7XG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgY29sb3JzLFxufTtcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQSxJQUFBQSxPQUFBLEdBQUFDLHNCQUFBLENBQUFDLE9BQUE7QUFBOEIsSUFBQUMsUUFBQSxHQUVmO0VBQ2JDLE1BQU0sRUFBTkE7QUFDRixDQUFDO0FBQUFDLE9BQUEsQ0FBQUMsT0FBQSxHQUFBSCxRQUFBIn0=

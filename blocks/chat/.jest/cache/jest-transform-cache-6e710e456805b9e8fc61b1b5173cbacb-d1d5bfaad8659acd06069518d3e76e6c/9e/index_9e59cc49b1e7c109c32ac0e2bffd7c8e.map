@@ -1,0 +1,1 @@
+{"version":3,"names":["_SwipeRating","_interopRequireDefault","require","_TapRating"],"sources":["index.js"],"sourcesContent":["import Rating from './SwipeRating';\nimport AirbnbRating from './TapRating';\n\nexport { Rating, AirbnbRating }\n"],"mappings":";;;;;;;;;;;;;;;;AAAA,IAAAA,YAAA,GAAAC,sBAAA,CAAAC,OAAA;AACA,IAAAC,UAAA,GAAAF,sBAAA,CAAAC,OAAA"}
